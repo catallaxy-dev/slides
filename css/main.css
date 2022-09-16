@@ -18,8 +18,12 @@
     margin-right: 0.5em;
 }
 
+h1, h2, h3, h4 {
+  text-transform: none !important;
+}
+
 .white {
-  color: white;
+  color: white !important;
 }
 
 .bold {
@@ -27,8 +31,7 @@
 }
 
 .reveal .header-title {
-    position: fixed;
+    position: absolute;
     top: 20px;
     left: 0;
-    font-size: 44px;
 }
